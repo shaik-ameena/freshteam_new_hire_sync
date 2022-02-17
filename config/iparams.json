@@ -1,0 +1,31 @@
+{
+    "email": {
+      "display_name": "email",
+      "description": "Please enter your email",
+      "type": "text",
+      "required": true
+    },
+    "email_passw": {
+      "display_name": "email password",
+      "description": "Please enter your email password",
+      "type": "text",
+      "required": true
+    },
+    "freshteam_subdomain": {
+      "display_name": "domain name",
+      "description": "Please enter your domain name",
+      "type": "domain",
+      "required": true,
+      "type_attributes": {
+        "product": "freshteam"
+      }
+    },
+    "freshteam_api_key": {
+      "display_name": "freshteam api key",
+      "description": "Please enter your freshteam api key",
+      "type": "text",
+      "required": true,
+      "secure":true
+    }
+  }
+  

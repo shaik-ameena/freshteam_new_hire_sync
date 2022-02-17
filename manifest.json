@@ -1,0 +1,31 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshteam": {
+      "location": {
+        "full_page_app": {
+          "url": "template.html",
+          "icon":"icon.svg"
+        }
+      },
+      "events": {
+        "onEmployeeCreate": {
+          "handler": "onEmployeeCreateCallback"
+        },
+        "onAppInstall": {
+          "handler": "onAppInstallCallback"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "nodemailer" :"6.7.2"
+  },
+  "whitelisted-domains": [
+    "https://<%= iparam.freshteam_subdomain %>.freshteam.com"
+  ],
+  "engines": {
+    "node": "12.22.9",
+    "fdk": "7.3.0"
+  }
+}
