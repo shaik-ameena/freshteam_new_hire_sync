@@ -34,8 +34,8 @@ exports = {
                 console.log("retrived data ", data  , data.subject);
                 let options = {
                   from: payload.iparams.email,
-                  //to:payload.data.actor.email,
-                  to:"ameena.shaik@freshworks.com",
+                  to:payload.data.actor.email,
+                  //to:"ameena.shaik@freshworks.com",
                   subject: data.subject,
                   text: data.body,
                   //html: "<b>Hello world?</b>",
