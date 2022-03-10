@@ -1,0 +1,8 @@
+.fdk/*
+coverage/
+dist/
+.report.json
+log/
+node_modules/
+server/test_data/
+server/node_modules/

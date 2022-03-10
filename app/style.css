@@ -1,29 +1,40 @@
 #templates {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 70%;
+    width: 90%;
     margin-top: 20px;
     margin-left: 10px;
-  }
+}
   
-  #templates td, #templates th {
-    border: 1px solid #ddd;
+#templates td, #templates th {
+    /* border: 1px solid #ddd; */
+    border-right: none;
+    border-bottom: 1px solid #ddd;
     padding: 8px;
-  }
-  #templates td #template-name{
+}
+#templates td #template-name{
       cursor: pointer;
       color: blue;
       text-decoration: underline;
-  }
+}
   
-  #templates tr:nth-child(even){background-color: #f2f2f2;}
+/* #templates tr:nth-child(even){background-color: #f2f2f2;} */
   
-  #templates tr:hover {background-color: #ddd;}
+#templates tr:hover {background-color: #ddd; cursor: pointer;}
   
-  #templates th {
+#templates th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #04AA6D;
-    color: white;
-  }
+    /* border-right:none ; */
+    /* background-color: #04AA6D; */
+    /* color: white; */
+} 
+#role{
+  width: 64%;
+  height: 32px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-color: #00000026;
+  border-radius: 4px;
+}

@@ -14,28 +14,35 @@
       </br>
       <p class="text-center" id="apptext"></p>
     </div>
-    <div>
+    <div style="margin-left: 30px;">
       <fw-tabs active-tab-index=0 id="tabs-root">
-        <fw-tab tab-header="New/Edit Template" id="role1">
-          <div id="roles" style="width: 70%;">
+        <fw-tab tab-header="New/Edit Template">
+          <div id="designation" style="width: 70%;">
           </div>
-          <fw-input label="Subject" required clear-input id="template-subject">
+          <fw-input label="Subject" required clear-input id="template-subject" style="width: 45%;">
           </fw-input>
-          <fw-textarea cols=120 rows=5 maxlength=190 minlength=5 label="Body" required id="template-body">
+          <fw-textarea cols=120 rows=15  label="Body" required id="template-body">
           </fw-textarea>
-          <fw-button color="secondary" onclick="onSave()"> Save </fw-button>
+          <fw-button color="secondary" onclick="onTemplateSave()"> Save </fw-button>
         </fw-tab>
         <fw-tab tab-header="Saved Templates">
           <div id="saved-templates">
           </div>
         </fw-tab>
-        <fw-tab tab-header="sent mails">
-          <div></div>
+        <fw-tab tab-header="Sent Mails">
+          <div id="sent-mails">
+          </div>
         </fw-tab>
-        <fw-tab tab-header="failed mails">
-          <div></div>
+        <fw-tab tab-header="Failed Mails">
+          <div id="failed-mails">
+          </div>
         </fw-tab>
+        <!-- <fw-tab tab-header="New Hires List">
+          <div id="new_hires_list">
+          </div>
+        </fw-tab> -->
       </fw-tabs>
     </div>
   </body>
 </html>
+

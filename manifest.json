@@ -9,8 +9,8 @@
         }
       },
       "events": {
-        "onEmployeeCreate": {
-          "handler": "onEmployeeCreateCallback"
+        "onNewHireCreate": {
+          "handler": "onNewHireCreateCallback"
         },
         "onAppInstall": {
           "handler": "onAppInstallCallback"
