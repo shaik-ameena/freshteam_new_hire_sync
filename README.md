@@ -35,10 +35,6 @@
         <td>Request Method has been used to make API call to retrive the designations of the domain. </td>
     </tr>
     <tr>
-        <td><code><a href="https://developers.freshteam.com/docs/request-method/">Data Method</a></code></td>
-        <td>Data Method has been used to get the domainName of the account. </td>
-    </tr>
-    <tr>
         <td><code><a href="https://developers.freshteam.com/docs/data-storage/">Key-Value Storage</a></code></td>
         <td>Data storage is used to store info of mail templates and logs.</td>
     </tr>
